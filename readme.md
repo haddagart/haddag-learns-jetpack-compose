@@ -58,8 +58,8 @@ _Source_: Google Developers
 
 # Learning progress
 - [x] Unit 01: Your first android app
-- [] Unit 02: Building App UI
-- [] Unit 03:
-- [] Unit 04:
-- [] Unit 05:
-- [] Unit 06: 
+- [ ] Unit 02: Building App UI
+- [ ] Unit 03:
+- [ ] Unit 04:
+- [ ] Unit 05:
+- [ ] Unit 06: 
