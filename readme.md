@@ -48,7 +48,7 @@ _Source_: Google Developers
     - **Lesson 01:** Introduction
     - **Lesson 02:** Write conditionals in Kotlin
     - **Lesson 03:** Use nullability in Kotlin
-    - **Lesson 04:** Use classes and objects in Kotlin [[code](./content/unit_1_kotlin_fundamentals/104_classes_objects)]
+    - **Lesson 04:** [Use classes and objects in Kotlin](./content/unit_3_kotlin_fundamentals/104_classes_objects/00_notes.md)]
     - **Lesson 05:** Use function types and lambda expressions in Kotlin
     - **Lesson 06:** Practice: Kotlin fundamentals
     - **Lesson 07:** What's next?
