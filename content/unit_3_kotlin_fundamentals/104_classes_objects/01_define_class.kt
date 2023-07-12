@@ -7,16 +7,19 @@ class SmartDevice {
     val category:String = "Entertainment"
     // Mutable properties are defined with var
     var deviceStatus:String = "online"
+    /*
+        The field is a keyword that retains the value of the accessed property
+        Don't use the property name in the setter and getter otherwise it will 
+        lead to infinite loop
+    */
     var speakerVolume:Int = 25
-        get() = field // this is a getter call predefined get
+        // Getter: gets the field value contains get() = {...}
+        get() = field
+        // Setter: set the field value dones't contain set(value) {...}
         set(value) {
             if(value in 1..100) field = value
-        } // setter are function without the = symbol
-        /*
-            The field is a keyword that retains the value of the accessed property
-            Don't use the property name in the setter and getter otherwise
-            it will lead to infinite loop
-         */
+        }
+    
     
     // Methods
     fun turnOn() {
@@ -31,5 +34,9 @@ class SmartDevice {
 fun main() {
     val myDevice = SmartDevice()
     myDevice.turnOn()
+    println("Device: ${myDevice.name}")
+    println("Speaker volume: ${myDevice.speakerVolume}")
+    myDevice.speakerVolume = 50
+    println("Speaker volume: ${myDevice.speakerVolume}")
     myDevice.turnOff()
 }
